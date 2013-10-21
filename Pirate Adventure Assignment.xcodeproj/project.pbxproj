@@ -7,161 +7,235 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F4DAEF218156DB60004014F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4DAEF118156DB60004014F /* Foundation.framework */; };
-		6F4DAEF418156DB60004014F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4DAEF318156DB60004014F /* CoreGraphics.framework */; };
-		6F4DAEF618156DB60004014F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4DAEF518156DB60004014F /* UIKit.framework */; };
-		6F4DAEFC18156DB60004014F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F4DAEFA18156DB60004014F /* InfoPlist.strings */; };
-		6F4DAEFE18156DB60004014F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4DAEFD18156DB60004014F /* main.m */; };
-		6F4DAF0218156DB60004014F /* DDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4DAF0118156DB60004014F /* DDAppDelegate.m */; };
-		6F4DAF0518156DB60004014F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F4DAF0318156DB60004014F /* Main.storyboard */; };
-		6F4DAF0818156DB60004014F /* DDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4DAF0718156DB60004014F /* DDViewController.m */; };
-		6F4DAF0A18156DB60004014F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F4DAF0918156DB60004014F /* Images.xcassets */; };
-		6F4DAF1118156DB60004014F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4DAF1018156DB60004014F /* XCTest.framework */; };
-		6F4DAF1218156DB60004014F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4DAEF118156DB60004014F /* Foundation.framework */; };
-		6F4DAF1318156DB60004014F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4DAEF518156DB60004014F /* UIKit.framework */; };
-		6F4DAF1B18156DB60004014F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F4DAF1918156DB60004014F /* InfoPlist.strings */; };
-		6F4DAF1D18156DB60004014F /* Pirate_Adventure_AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4DAF1C18156DB60004014F /* Pirate_Adventure_AssignmentTests.m */; };
+		6FF63104180CC9B400385080 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF63103180CC9B400385080 /* Foundation.framework */; };
+		6FF63106180CC9B400385080 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF63105180CC9B400385080 /* CoreGraphics.framework */; };
+		6FF63108180CC9B400385080 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF63107180CC9B400385080 /* UIKit.framework */; };
+		6FF6310E180CC9B400385080 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FF6310C180CC9B400385080 /* InfoPlist.strings */; };
+		6FF63110180CC9B400385080 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF6310F180CC9B400385080 /* main.m */; };
+		6FF63114180CC9B400385080 /* DDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF63113180CC9B400385080 /* DDAppDelegate.m */; };
+		6FF63117180CC9B400385080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF63115180CC9B400385080 /* Main.storyboard */; };
+		6FF6311A180CC9B400385080 /* DDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF63119180CC9B400385080 /* DDViewController.m */; };
+		6FF6311C180CC9B400385080 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FF6311B180CC9B400385080 /* Images.xcassets */; };
+		6FF63123180CC9B400385080 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF63122180CC9B400385080 /* XCTest.framework */; };
+		6FF63124180CC9B400385080 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF63103180CC9B400385080 /* Foundation.framework */; };
+		6FF63125180CC9B400385080 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF63107180CC9B400385080 /* UIKit.framework */; };
+		6FF6312D180CC9B400385080 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FF6312B180CC9B400385080 /* InfoPlist.strings */; };
+		6FF6312F180CC9B400385080 /* Pirate_Adventure_AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF6312E180CC9B400385080 /* Pirate_Adventure_AssignmentTests.m */; };
+		6FF63145180CF39500385080 /* PirateAttack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF63139180CF39500385080 /* PirateAttack.jpg */; };
+		6FF63146180CF39500385080 /* PirateBlacksmith.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF6313A180CF39500385080 /* PirateBlacksmith.jpeg */; };
+		6FF63147180CF39500385080 /* PirateBoss.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF6313B180CF39500385080 /* PirateBoss.jpeg */; };
+		6FF63148180CF39500385080 /* PirateFriendlyDock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF6313C180CF39500385080 /* PirateFriendlyDock.jpg */; };
+		6FF63149180CF39500385080 /* PirateOctopusAttack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF6313D180CF39500385080 /* PirateOctopusAttack.jpg */; };
+		6FF6314A180CF39500385080 /* PirateParrot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF6313E180CF39500385080 /* PirateParrot.jpg */; };
+		6FF6314B180CF39500385080 /* PiratePlank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF6313F180CF39500385080 /* PiratePlank.jpg */; };
+		6FF6314C180CF39500385080 /* PirateShipBattle.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF63140180CF39500385080 /* PirateShipBattle.jpeg */; };
+		6FF6314D180CF39500385080 /* PirateStart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF63141180CF39500385080 /* PirateStart.jpg */; };
+		6FF6314E180CF39500385080 /* PirateTreasure.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF63142180CF39500385080 /* PirateTreasure.jpeg */; };
+		6FF6314F180CF39500385080 /* PirateTreasure2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF63143180CF39500385080 /* PirateTreasure2.jpeg */; };
+		6FF63150180CF39500385080 /* PirateWeapons.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF63144180CF39500385080 /* PirateWeapons.jpeg */; };
+		6FF63153180CF3F100385080 /* DDTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF63152180CF3F100385080 /* DDTile.m */; };
+		6FF63156180CF40600385080 /* DDTileFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF63155180CF40600385080 /* DDTileFactory.m */; };
+		6FF63159180CF40E00385080 /* DDCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF63158180CF40E00385080 /* DDCharacter.m */; };
+		6FF6315C180CF41600385080 /* DDWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF6315B180CF41600385080 /* DDWeapon.m */; };
+		6FF6315F180CF42C00385080 /* DDArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF6315E180CF42C00385080 /* DDArmor.m */; };
+		6FF63162180CF43300385080 /* DDBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF63161180CF43300385080 /* DDBoss.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6F4DAF1418156DB60004014F /* PBXContainerItemProxy */ = {
+		6FF63126180CC9B400385080 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6F4DAEE618156DB60004014F /* Project object */;
+			containerPortal = 6FF630F8180CC9B400385080 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6F4DAEED18156DB60004014F;
+			remoteGlobalIDString = 6FF630FF180CC9B400385080;
 			remoteInfo = "Pirate Adventure Assignment";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6F4DAEEE18156DB60004014F /* Pirate Adventure Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirate Adventure Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F4DAEF118156DB60004014F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6F4DAEF318156DB60004014F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6F4DAEF518156DB60004014F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6F4DAEF918156DB60004014F /* Pirate Adventure Assignment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pirate Adventure Assignment-Info.plist"; sourceTree = "<group>"; };
-		6F4DAEFB18156DB60004014F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6F4DAEFD18156DB60004014F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6F4DAEFF18156DB60004014F /* Pirate Adventure Assignment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pirate Adventure Assignment-Prefix.pch"; sourceTree = "<group>"; };
-		6F4DAF0018156DB60004014F /* DDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDAppDelegate.h; sourceTree = "<group>"; };
-		6F4DAF0118156DB60004014F /* DDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDAppDelegate.m; sourceTree = "<group>"; };
-		6F4DAF0418156DB60004014F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6F4DAF0618156DB60004014F /* DDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDViewController.h; sourceTree = "<group>"; };
-		6F4DAF0718156DB60004014F /* DDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDViewController.m; sourceTree = "<group>"; };
-		6F4DAF0918156DB60004014F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6F4DAF0F18156DB60004014F /* Pirate Adventure AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pirate Adventure AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F4DAF1018156DB60004014F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6F4DAF1818156DB60004014F /* Pirate Adventure AssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pirate Adventure AssignmentTests-Info.plist"; sourceTree = "<group>"; };
-		6F4DAF1A18156DB60004014F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6F4DAF1C18156DB60004014F /* Pirate_Adventure_AssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirate_Adventure_AssignmentTests.m; sourceTree = "<group>"; };
+		6FF63100180CC9B400385080 /* Pirate Adventure Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirate Adventure Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF63103180CC9B400385080 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6FF63105180CC9B400385080 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6FF63107180CC9B400385080 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6FF6310B180CC9B400385080 /* Pirate Adventure Assignment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pirate Adventure Assignment-Info.plist"; sourceTree = "<group>"; };
+		6FF6310D180CC9B400385080 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6FF6310F180CC9B400385080 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FF63111180CC9B400385080 /* Pirate Adventure Assignment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pirate Adventure Assignment-Prefix.pch"; sourceTree = "<group>"; };
+		6FF63112180CC9B400385080 /* DDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDAppDelegate.h; sourceTree = "<group>"; };
+		6FF63113180CC9B400385080 /* DDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDAppDelegate.m; sourceTree = "<group>"; };
+		6FF63116180CC9B400385080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FF63118180CC9B400385080 /* DDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDViewController.h; sourceTree = "<group>"; };
+		6FF63119180CC9B400385080 /* DDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDViewController.m; sourceTree = "<group>"; };
+		6FF6311B180CC9B400385080 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6FF63121180CC9B400385080 /* Pirate Adventure AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pirate Adventure AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF63122180CC9B400385080 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6FF6312A180CC9B400385080 /* Pirate Adventure AssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pirate Adventure AssignmentTests-Info.plist"; sourceTree = "<group>"; };
+		6FF6312C180CC9B400385080 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6FF6312E180CC9B400385080 /* Pirate_Adventure_AssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirate_Adventure_AssignmentTests.m; sourceTree = "<group>"; };
+		6FF63139180CF39500385080 /* PirateAttack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateAttack.jpg; sourceTree = "<group>"; };
+		6FF6313A180CF39500385080 /* PirateBlacksmith.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateBlacksmith.jpeg; sourceTree = "<group>"; };
+		6FF6313B180CF39500385080 /* PirateBoss.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateBoss.jpeg; sourceTree = "<group>"; };
+		6FF6313C180CF39500385080 /* PirateFriendlyDock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateFriendlyDock.jpg; sourceTree = "<group>"; };
+		6FF6313D180CF39500385080 /* PirateOctopusAttack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateOctopusAttack.jpg; sourceTree = "<group>"; };
+		6FF6313E180CF39500385080 /* PirateParrot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateParrot.jpg; sourceTree = "<group>"; };
+		6FF6313F180CF39500385080 /* PiratePlank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PiratePlank.jpg; sourceTree = "<group>"; };
+		6FF63140180CF39500385080 /* PirateShipBattle.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateShipBattle.jpeg; sourceTree = "<group>"; };
+		6FF63141180CF39500385080 /* PirateStart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateStart.jpg; sourceTree = "<group>"; };
+		6FF63142180CF39500385080 /* PirateTreasure.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateTreasure.jpeg; sourceTree = "<group>"; };
+		6FF63143180CF39500385080 /* PirateTreasure2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateTreasure2.jpeg; sourceTree = "<group>"; };
+		6FF63144180CF39500385080 /* PirateWeapons.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateWeapons.jpeg; sourceTree = "<group>"; };
+		6FF63151180CF3F100385080 /* DDTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTile.h; sourceTree = "<group>"; };
+		6FF63152180CF3F100385080 /* DDTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTile.m; sourceTree = "<group>"; };
+		6FF63154180CF40600385080 /* DDTileFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTileFactory.h; sourceTree = "<group>"; };
+		6FF63155180CF40600385080 /* DDTileFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTileFactory.m; sourceTree = "<group>"; };
+		6FF63157180CF40E00385080 /* DDCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCharacter.h; sourceTree = "<group>"; };
+		6FF63158180CF40E00385080 /* DDCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCharacter.m; sourceTree = "<group>"; };
+		6FF6315A180CF41600385080 /* DDWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDWeapon.h; sourceTree = "<group>"; };
+		6FF6315B180CF41600385080 /* DDWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDWeapon.m; sourceTree = "<group>"; };
+		6FF6315D180CF42C00385080 /* DDArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDArmor.h; sourceTree = "<group>"; };
+		6FF6315E180CF42C00385080 /* DDArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDArmor.m; sourceTree = "<group>"; };
+		6FF63160180CF43300385080 /* DDBoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDBoss.h; sourceTree = "<group>"; };
+		6FF63161180CF43300385080 /* DDBoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDBoss.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6F4DAEEB18156DB60004014F /* Frameworks */ = {
+		6FF630FD180CC9B400385080 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F4DAEF418156DB60004014F /* CoreGraphics.framework in Frameworks */,
-				6F4DAEF618156DB60004014F /* UIKit.framework in Frameworks */,
-				6F4DAEF218156DB60004014F /* Foundation.framework in Frameworks */,
+				6FF63106180CC9B400385080 /* CoreGraphics.framework in Frameworks */,
+				6FF63108180CC9B400385080 /* UIKit.framework in Frameworks */,
+				6FF63104180CC9B400385080 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F4DAF0C18156DB60004014F /* Frameworks */ = {
+		6FF6311E180CC9B400385080 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F4DAF1118156DB60004014F /* XCTest.framework in Frameworks */,
-				6F4DAF1318156DB60004014F /* UIKit.framework in Frameworks */,
-				6F4DAF1218156DB60004014F /* Foundation.framework in Frameworks */,
+				6FF63123180CC9B400385080 /* XCTest.framework in Frameworks */,
+				6FF63125180CC9B400385080 /* UIKit.framework in Frameworks */,
+				6FF63124180CC9B400385080 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6F4DAEE518156DB60004014F = {
+		6FF630F7180CC9B400385080 = {
 			isa = PBXGroup;
 			children = (
-				6F4DAEF718156DB60004014F /* Pirate Adventure Assignment */,
-				6F4DAF1618156DB60004014F /* Pirate Adventure AssignmentTests */,
-				6F4DAEF018156DB60004014F /* Frameworks */,
-				6F4DAEEF18156DB60004014F /* Products */,
+				6FF63109180CC9B400385080 /* Pirate Adventure Assignment */,
+				6FF63128180CC9B400385080 /* Pirate Adventure AssignmentTests */,
+				6FF63102180CC9B400385080 /* Frameworks */,
+				6FF63101180CC9B400385080 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6F4DAEEF18156DB60004014F /* Products */ = {
+		6FF63101180CC9B400385080 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6F4DAEEE18156DB60004014F /* Pirate Adventure Assignment.app */,
-				6F4DAF0F18156DB60004014F /* Pirate Adventure AssignmentTests.xctest */,
+				6FF63100180CC9B400385080 /* Pirate Adventure Assignment.app */,
+				6FF63121180CC9B400385080 /* Pirate Adventure AssignmentTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6F4DAEF018156DB60004014F /* Frameworks */ = {
+		6FF63102180CC9B400385080 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6F4DAEF118156DB60004014F /* Foundation.framework */,
-				6F4DAEF318156DB60004014F /* CoreGraphics.framework */,
-				6F4DAEF518156DB60004014F /* UIKit.framework */,
-				6F4DAF1018156DB60004014F /* XCTest.framework */,
+				6FF63103180CC9B400385080 /* Foundation.framework */,
+				6FF63105180CC9B400385080 /* CoreGraphics.framework */,
+				6FF63107180CC9B400385080 /* UIKit.framework */,
+				6FF63122180CC9B400385080 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6F4DAEF718156DB60004014F /* Pirate Adventure Assignment */ = {
+		6FF63109180CC9B400385080 /* Pirate Adventure Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				6F4DAF0018156DB60004014F /* DDAppDelegate.h */,
-				6F4DAF0118156DB60004014F /* DDAppDelegate.m */,
-				6F4DAF0318156DB60004014F /* Main.storyboard */,
-				6F4DAF0618156DB60004014F /* DDViewController.h */,
-				6F4DAF0718156DB60004014F /* DDViewController.m */,
-				6F4DAF0918156DB60004014F /* Images.xcassets */,
-				6F4DAEF818156DB60004014F /* Supporting Files */,
+				6FF63112180CC9B400385080 /* DDAppDelegate.h */,
+				6FF63113180CC9B400385080 /* DDAppDelegate.m */,
+				6FF63115180CC9B400385080 /* Main.storyboard */,
+				6FF63118180CC9B400385080 /* DDViewController.h */,
+				6FF63119180CC9B400385080 /* DDViewController.m */,
+				6FF63151180CF3F100385080 /* DDTile.h */,
+				6FF63152180CF3F100385080 /* DDTile.m */,
+				6FF63154180CF40600385080 /* DDTileFactory.h */,
+				6FF63155180CF40600385080 /* DDTileFactory.m */,
+				6FF63157180CF40E00385080 /* DDCharacter.h */,
+				6FF63158180CF40E00385080 /* DDCharacter.m */,
+				6FF6315A180CF41600385080 /* DDWeapon.h */,
+				6FF6315B180CF41600385080 /* DDWeapon.m */,
+				6FF6315D180CF42C00385080 /* DDArmor.h */,
+				6FF6315E180CF42C00385080 /* DDArmor.m */,
+				6FF63160180CF43300385080 /* DDBoss.h */,
+				6FF63161180CF43300385080 /* DDBoss.m */,
+				6FF6311B180CC9B400385080 /* Images.xcassets */,
+				6FF6310A180CC9B400385080 /* Supporting Files */,
 			);
 			path = "Pirate Adventure Assignment";
 			sourceTree = "<group>";
 		};
-		6F4DAEF818156DB60004014F /* Supporting Files */ = {
+		6FF6310A180CC9B400385080 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6F4DAEF918156DB60004014F /* Pirate Adventure Assignment-Info.plist */,
-				6F4DAEFA18156DB60004014F /* InfoPlist.strings */,
-				6F4DAEFD18156DB60004014F /* main.m */,
-				6F4DAEFF18156DB60004014F /* Pirate Adventure Assignment-Prefix.pch */,
+				6FF63138180CF39500385080 /* PirateImageAssets */,
+				6FF6310B180CC9B400385080 /* Pirate Adventure Assignment-Info.plist */,
+				6FF6310C180CC9B400385080 /* InfoPlist.strings */,
+				6FF6310F180CC9B400385080 /* main.m */,
+				6FF63111180CC9B400385080 /* Pirate Adventure Assignment-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6F4DAF1618156DB60004014F /* Pirate Adventure AssignmentTests */ = {
+		6FF63128180CC9B400385080 /* Pirate Adventure AssignmentTests */ = {
 			isa = PBXGroup;
 			children = (
-				6F4DAF1C18156DB60004014F /* Pirate_Adventure_AssignmentTests.m */,
-				6F4DAF1718156DB60004014F /* Supporting Files */,
+				6FF6312E180CC9B400385080 /* Pirate_Adventure_AssignmentTests.m */,
+				6FF63129180CC9B400385080 /* Supporting Files */,
 			);
 			path = "Pirate Adventure AssignmentTests";
 			sourceTree = "<group>";
 		};
-		6F4DAF1718156DB60004014F /* Supporting Files */ = {
+		6FF63129180CC9B400385080 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6F4DAF1818156DB60004014F /* Pirate Adventure AssignmentTests-Info.plist */,
-				6F4DAF1918156DB60004014F /* InfoPlist.strings */,
+				6FF6312A180CC9B400385080 /* Pirate Adventure AssignmentTests-Info.plist */,
+				6FF6312B180CC9B400385080 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FF63138180CF39500385080 /* PirateImageAssets */ = {
+			isa = PBXGroup;
+			children = (
+				6FF63139180CF39500385080 /* PirateAttack.jpg */,
+				6FF6313A180CF39500385080 /* PirateBlacksmith.jpeg */,
+				6FF6313B180CF39500385080 /* PirateBoss.jpeg */,
+				6FF6313C180CF39500385080 /* PirateFriendlyDock.jpg */,
+				6FF6313D180CF39500385080 /* PirateOctopusAttack.jpg */,
+				6FF6313E180CF39500385080 /* PirateParrot.jpg */,
+				6FF6313F180CF39500385080 /* PiratePlank.jpg */,
+				6FF63140180CF39500385080 /* PirateShipBattle.jpeg */,
+				6FF63141180CF39500385080 /* PirateStart.jpg */,
+				6FF63142180CF39500385080 /* PirateTreasure.jpeg */,
+				6FF63143180CF39500385080 /* PirateTreasure2.jpeg */,
+				6FF63144180CF39500385080 /* PirateWeapons.jpeg */,
+			);
+			path = PirateImageAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6F4DAEED18156DB60004014F /* Pirate Adventure Assignment */ = {
+		6FF630FF180CC9B400385080 /* Pirate Adventure Assignment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F4DAF2018156DB60004014F /* Build configuration list for PBXNativeTarget "Pirate Adventure Assignment" */;
+			buildConfigurationList = 6FF63132180CC9B400385080 /* Build configuration list for PBXNativeTarget "Pirate Adventure Assignment" */;
 			buildPhases = (
-				6F4DAEEA18156DB60004014F /* Sources */,
-				6F4DAEEB18156DB60004014F /* Frameworks */,
-				6F4DAEEC18156DB60004014F /* Resources */,
+				6FF630FC180CC9B400385080 /* Sources */,
+				6FF630FD180CC9B400385080 /* Frameworks */,
+				6FF630FE180CC9B400385080 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -169,43 +243,43 @@
 			);
 			name = "Pirate Adventure Assignment";
 			productName = "Pirate Adventure Assignment";
-			productReference = 6F4DAEEE18156DB60004014F /* Pirate Adventure Assignment.app */;
+			productReference = 6FF63100180CC9B400385080 /* Pirate Adventure Assignment.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6F4DAF0E18156DB60004014F /* Pirate Adventure AssignmentTests */ = {
+		6FF63120180CC9B400385080 /* Pirate Adventure AssignmentTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F4DAF2318156DB60004014F /* Build configuration list for PBXNativeTarget "Pirate Adventure AssignmentTests" */;
+			buildConfigurationList = 6FF63135180CC9B400385080 /* Build configuration list for PBXNativeTarget "Pirate Adventure AssignmentTests" */;
 			buildPhases = (
-				6F4DAF0B18156DB60004014F /* Sources */,
-				6F4DAF0C18156DB60004014F /* Frameworks */,
-				6F4DAF0D18156DB60004014F /* Resources */,
+				6FF6311D180CC9B400385080 /* Sources */,
+				6FF6311E180CC9B400385080 /* Frameworks */,
+				6FF6311F180CC9B400385080 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6F4DAF1518156DB60004014F /* PBXTargetDependency */,
+				6FF63127180CC9B400385080 /* PBXTargetDependency */,
 			);
 			name = "Pirate Adventure AssignmentTests";
 			productName = "Pirate Adventure AssignmentTests";
-			productReference = 6F4DAF0F18156DB60004014F /* Pirate Adventure AssignmentTests.xctest */;
+			productReference = 6FF63121180CC9B400385080 /* Pirate Adventure AssignmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6F4DAEE618156DB60004014F /* Project object */ = {
+		6FF630F8180CC9B400385080 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = DD;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = DDD;
 				TargetAttributes = {
-					6F4DAF0E18156DB60004014F = {
-						TestTargetID = 6F4DAEED18156DB60004014F;
+					6FF63120180CC9B400385080 = {
+						TestTargetID = 6FF630FF180CC9B400385080;
 					};
 				};
 			};
-			buildConfigurationList = 6F4DAEE918156DB60004014F /* Build configuration list for PBXProject "Pirate Adventure Assignment" */;
+			buildConfigurationList = 6FF630FB180CC9B400385080 /* Build configuration list for PBXProject "Pirate Adventure Assignment" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -213,88 +287,106 @@
 				en,
 				Base,
 			);
-			mainGroup = 6F4DAEE518156DB60004014F;
-			productRefGroup = 6F4DAEEF18156DB60004014F /* Products */;
+			mainGroup = 6FF630F7180CC9B400385080;
+			productRefGroup = 6FF63101180CC9B400385080 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F4DAEED18156DB60004014F /* Pirate Adventure Assignment */,
-				6F4DAF0E18156DB60004014F /* Pirate Adventure AssignmentTests */,
+				6FF630FF180CC9B400385080 /* Pirate Adventure Assignment */,
+				6FF63120180CC9B400385080 /* Pirate Adventure AssignmentTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6F4DAEEC18156DB60004014F /* Resources */ = {
+		6FF630FE180CC9B400385080 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F4DAF0A18156DB60004014F /* Images.xcassets in Resources */,
-				6F4DAEFC18156DB60004014F /* InfoPlist.strings in Resources */,
-				6F4DAF0518156DB60004014F /* Main.storyboard in Resources */,
+				6FF63149180CF39500385080 /* PirateOctopusAttack.jpg in Resources */,
+				6FF63150180CF39500385080 /* PirateWeapons.jpeg in Resources */,
+				6FF6314B180CF39500385080 /* PiratePlank.jpg in Resources */,
+				6FF6314E180CF39500385080 /* PirateTreasure.jpeg in Resources */,
+				6FF63148180CF39500385080 /* PirateFriendlyDock.jpg in Resources */,
+				6FF63145180CF39500385080 /* PirateAttack.jpg in Resources */,
+				6FF6311C180CC9B400385080 /* Images.xcassets in Resources */,
+				6FF6310E180CC9B400385080 /* InfoPlist.strings in Resources */,
+				6FF63117180CC9B400385080 /* Main.storyboard in Resources */,
+				6FF6314C180CF39500385080 /* PirateShipBattle.jpeg in Resources */,
+				6FF6314F180CF39500385080 /* PirateTreasure2.jpeg in Resources */,
+				6FF63146180CF39500385080 /* PirateBlacksmith.jpeg in Resources */,
+				6FF6314D180CF39500385080 /* PirateStart.jpg in Resources */,
+				6FF63147180CF39500385080 /* PirateBoss.jpeg in Resources */,
+				6FF6314A180CF39500385080 /* PirateParrot.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F4DAF0D18156DB60004014F /* Resources */ = {
+		6FF6311F180CC9B400385080 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F4DAF1B18156DB60004014F /* InfoPlist.strings in Resources */,
+				6FF6312D180CC9B400385080 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6F4DAEEA18156DB60004014F /* Sources */ = {
+		6FF630FC180CC9B400385080 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F4DAF0218156DB60004014F /* DDAppDelegate.m in Sources */,
-				6F4DAF0818156DB60004014F /* DDViewController.m in Sources */,
-				6F4DAEFE18156DB60004014F /* main.m in Sources */,
+				6FF63114180CC9B400385080 /* DDAppDelegate.m in Sources */,
+				6FF63153180CF3F100385080 /* DDTile.m in Sources */,
+				6FF6311A180CC9B400385080 /* DDViewController.m in Sources */,
+				6FF6315C180CF41600385080 /* DDWeapon.m in Sources */,
+				6FF63159180CF40E00385080 /* DDCharacter.m in Sources */,
+				6FF6315F180CF42C00385080 /* DDArmor.m in Sources */,
+				6FF63110180CC9B400385080 /* main.m in Sources */,
+				6FF63156180CF40600385080 /* DDTileFactory.m in Sources */,
+				6FF63162180CF43300385080 /* DDBoss.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F4DAF0B18156DB60004014F /* Sources */ = {
+		6FF6311D180CC9B400385080 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F4DAF1D18156DB60004014F /* Pirate_Adventure_AssignmentTests.m in Sources */,
+				6FF6312F180CC9B400385080 /* Pirate_Adventure_AssignmentTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6F4DAF1518156DB60004014F /* PBXTargetDependency */ = {
+		6FF63127180CC9B400385080 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6F4DAEED18156DB60004014F /* Pirate Adventure Assignment */;
-			targetProxy = 6F4DAF1418156DB60004014F /* PBXContainerItemProxy */;
+			target = 6FF630FF180CC9B400385080 /* Pirate Adventure Assignment */;
+			targetProxy = 6FF63126180CC9B400385080 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6F4DAEFA18156DB60004014F /* InfoPlist.strings */ = {
+		6FF6310C180CC9B400385080 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6F4DAEFB18156DB60004014F /* en */,
+				6FF6310D180CC9B400385080 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		6F4DAF0318156DB60004014F /* Main.storyboard */ = {
+		6FF63115180CC9B400385080 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6F4DAF0418156DB60004014F /* Base */,
+				6FF63116180CC9B400385080 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6F4DAF1918156DB60004014F /* InfoPlist.strings */ = {
+		6FF6312B180CC9B400385080 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6F4DAF1A18156DB60004014F /* en */,
+				6FF6312C180CC9B400385080 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -302,7 +394,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6F4DAF1E18156DB60004014F /* Debug */ = {
+		6FF63130180CC9B400385080 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -341,7 +433,7 @@
 			};
 			name = Debug;
 		};
-		6F4DAF1F18156DB60004014F /* Release */ = {
+		6FF63131180CC9B400385080 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -374,7 +466,7 @@
 			};
 			name = Release;
 		};
-		6F4DAF2118156DB60004014F /* Debug */ = {
+		6FF63133180CC9B400385080 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -387,7 +479,7 @@
 			};
 			name = Debug;
 		};
-		6F4DAF2218156DB60004014F /* Release */ = {
+		6FF63134180CC9B400385080 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -400,7 +492,7 @@
 			};
 			name = Release;
 		};
-		6F4DAF2418156DB60004014F /* Debug */ = {
+		6FF63136180CC9B400385080 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -423,7 +515,7 @@
 			};
 			name = Debug;
 		};
-		6F4DAF2518156DB60004014F /* Release */ = {
+		6FF63137180CC9B400385080 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -445,32 +537,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6F4DAEE918156DB60004014F /* Build configuration list for PBXProject "Pirate Adventure Assignment" */ = {
+		6FF630FB180CC9B400385080 /* Build configuration list for PBXProject "Pirate Adventure Assignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F4DAF1E18156DB60004014F /* Debug */,
-				6F4DAF1F18156DB60004014F /* Release */,
+				6FF63130180CC9B400385080 /* Debug */,
+				6FF63131180CC9B400385080 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F4DAF2018156DB60004014F /* Build configuration list for PBXNativeTarget "Pirate Adventure Assignment" */ = {
+		6FF63132180CC9B400385080 /* Build configuration list for PBXNativeTarget "Pirate Adventure Assignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F4DAF2118156DB60004014F /* Debug */,
-				6F4DAF2218156DB60004014F /* Release */,
+				6FF63133180CC9B400385080 /* Debug */,
+				6FF63134180CC9B400385080 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6F4DAF2318156DB60004014F /* Build configuration list for PBXNativeTarget "Pirate Adventure AssignmentTests" */ = {
+		6FF63135180CC9B400385080 /* Build configuration list for PBXNativeTarget "Pirate Adventure AssignmentTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F4DAF2418156DB60004014F /* Debug */,
-				6F4DAF2518156DB60004014F /* Release */,
+				6FF63136180CC9B400385080 /* Debug */,
+				6FF63137180CC9B400385080 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6F4DAEE618156DB60004014F /* Project object */;
+	rootObject = 6FF630F8180CC9B400385080 /* Project object */;
 }
